@@ -18,6 +18,10 @@ class ProductsController < ApplicationController
     render plain: product.description
   end
 
+  def inventory
+
+  end
+
 
   private
 
